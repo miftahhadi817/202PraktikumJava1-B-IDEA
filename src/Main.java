@@ -7,5 +7,9 @@ public class Main {
         double ipk = 3.900;
 
         System.out.println(namaDepan);
+
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
+        System.out.println(uniskaString);
     }
 }
