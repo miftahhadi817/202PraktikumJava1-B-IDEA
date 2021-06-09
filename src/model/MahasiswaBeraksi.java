@@ -34,6 +34,8 @@ public class MahasiswaBeraksi {
         mahasiswa.menyapa();
         System.out.println("Usiaku : " + mahasiswa.hitungUsia() + " tahun");
 
+        Mahasiswa m = new Mahasiswa("1963002","Dwi", new Date());
+        m.tampilkanAtribut();
 
     }
 }

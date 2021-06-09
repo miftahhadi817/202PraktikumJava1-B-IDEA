@@ -9,6 +9,19 @@ public class Mahasiswa {
     String nama;
     Date tanggalLahir;
 
+    final String POLA_TANGGAL = "dd-MM-yyyy";
+    final SimpleDateFormat SDf = new SimpleDateFormat(POLA_TANGGAL);
+
+
+    public Mahasiswa() {
+    }
+
+    public Mahasiswa(String npm, String nama, Date tanggalLahir) {
+        this.npm = npm;
+        this.nama = nama;
+        this.tanggalLahir = tanggalLahir;
+    }
+
     void tampilkanAtribut() {
         String polaTanggal = "dd-MM-yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(polaTanggal);
