@@ -1,3 +1,5 @@
+import model.Mahasiswa;
+
 public class Main {
     public static void main(String[] args) {
         String namaDepan = "Miftah";
@@ -29,5 +31,8 @@ public class Main {
 
         for(String nama : namaArray)
             System.out.println(nama);
+
+        Mahasiswa mahasiswa = new Mahasiswa();
+        mahasiswa.setNpm("19710036");
     }
 }
